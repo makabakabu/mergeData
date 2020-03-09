@@ -1,0 +1,24 @@
+{
+  "name": "mergedata",
+  "version": "1.0.0",
+  "description": "将不同的缓存数据 根据git的原理进行合并",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinfengshenxiang/mergeData.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martinfengshenxiang/mergeData/issues"
+  },
+  "homepage": "https://github.com/martinfengshenxiang/mergeData#readme",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "uuid": "^7.0.2",
+    "zlib": "^1.0.5"
+  }
+}
