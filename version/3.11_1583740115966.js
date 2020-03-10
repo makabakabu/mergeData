@@ -1,6 +1,6 @@
-import data from "../data/index"
+const data = require("../data/index")
 
-export default {
+exports = module.exports = {
     userInfo: {
         name: data["29ebbd1b-c2f1-403d-b325-8d753469e24c"], //?
         id: data["64adf72b-f14f-429a-81e0-f5cdc35d505f"], //?

@@ -1,3 +1,3 @@
-import data from "./default/string"
+const data = require("./default/string")
 
-export default data('29ebbd1b-c2f1-403d-b325-8d753469e24c')
+exports = module.exports = data('29ebbd1b-c2f1-403d-b325-8d753469e24c')

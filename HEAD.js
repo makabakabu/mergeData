@@ -1,1 +1,1 @@
-export default "3.11_1583740115966"
+exports = module.exports = "3.11_1583740115966"

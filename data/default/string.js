@@ -1,7 +1,8 @@
-export default function number(id) {
+exports = module.exports = function number(id) {
     return {
         data: '',
         default: '',
-        id
+        id,
+        identicalId: Symbol('blob')
     }
 }

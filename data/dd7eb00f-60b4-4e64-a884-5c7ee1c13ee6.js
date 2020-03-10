@@ -1,3 +1,3 @@
-import data from "./default/number"
+const data = require("./default/number")
 
-export default data('dd7eb00f-60b4-4e64-a884-5c7ee1c13ee6')
+exports = module.exports = data('dd7eb00f-60b4-4e64-a884-5c7ee1c13ee6')

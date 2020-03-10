@@ -1,7 +1,8 @@
-export default function optionalNumber(id) {
+exports = module.exports = function optionalNumber(id) {
     return {
         data: 0,
         default: undefined,
-        id
+        id,
+        identicalId: Symbol('blob')
     }
 }
